@@ -1,0 +1,90 @@
+input[type="text"] 
+    height: 2.25em;            
+    @include is-input;
+
+textarea
+    @include is-input;
+
+.modal-card-body 
+      background-color: white;
+      flex-grow: 1;
+      flex-shrink: 1;
+      overflow: auto;
+      padding: 20px;
+
+ul 
+  list-style: outside none none;
+
+.tree-box
+        width: 25%;
+
+.cursor-is-poiner
+    cursor: pointer;
+    @include unselectable;
+
+.action
+    display: inline-block;
+
+.hide
+    display: none;
+
+.is-select
+        background-color: #00d1b2;
+        color: $body-background;
+        border-radius: $radius-small;
+        padding: 0.5em 0.75em;
+
+.showactions 
+    display: none;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-property: width;
+    background-color: $body-background;
+
+.hov:hover .showactions 
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+
+.product
+       border-left: 2px solid #00d1b2
+
+.item-product
+           display: inline-flex; 
+
+.content table td, .content table th 
+        border-color: #00d1b2;
+
+.content table thead td, .content table thead th 
+        color: #7a7a7a;
+
+.modal-card-foot, .modal-card-head
+        padding: 0px 20px 0px;
+
+
+.message-header 
+        padding: 0px;
+
+.slide-enter-active, .slide-leave-active 
+     transition: all .3s cubic-bezier(.65, .05, .36, 1);
+
+.slide-enter, .slide-leave-active
+                left: -100%;
+
+
+.fade-enter-active, .fade-leave-active 
+      transition: opacity .5s
+.fade-enter, .fade-leave-to 
+        opacity: 0
+
+
+
+
+
+
+
+
+
+
+
+
