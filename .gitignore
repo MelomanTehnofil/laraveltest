@@ -2,7 +2,9 @@
 /public/storage
 /public/js/
 /storage/*.key
+/storage/app/public/photos/*
+!/storage/app/public/photos/default.png
 /vendor
 /.idea
 .env
-.log
+*.log
